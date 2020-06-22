@@ -1,0 +1,62 @@
+/* Selector universal */
+
+/*
+
+ *{
+    background-color: rgb(44, 0, 44);
+    color: white;
+} 
+
+*/
+
+/*Selector de etiqueta*/
+
+
+p {
+    color: rebeccapurple;
+}
+h1 {
+    color: red;
+}
+
+
+/*Selector descendente*/
+
+
+
+p span {
+    color: royalblue;
+}
+h1 span{
+    color: rosybrown;
+}
+h3 span {
+    color: green;
+}
+
+
+
+/* Selector de clase*/
+
+
+
+.destacado {
+    color: teal;
+}
+
+
+
+
+/*Selector de ID*/
+
+
+#destacado { 
+    color: hotpink;
+}
+
+
+/*Selector de combinación*/
+
+.destacado #destacado p {
+    font-size: large;
+}
